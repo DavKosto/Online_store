@@ -1,0 +1,89 @@
+body{
+    background-color: #f8f8f8;
+}
+.h1_a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-style: normal;
+    color: rgb(62, 59, 65);;
+}
+.menu{
+    list-style-type: none;
+}
+.menu_a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 20px;
+    font-style: normal;
+    color: rgba(7, 7, 41, 0.74);
+}
+h3{
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+    background-color:  #eaeaea;
+}
+.p-brief{
+    color: #707070;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 16px;
+}
+.p-detailed{
+    color: #484343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+.product_detail-li{
+    font-style: oblique;
+    list-style-image: 
+    url(catalog//image/info.png);
+}
+.product_detail-li-p{
+    color: #202020;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 30px;
+    text-align: left;
+}
+
+.form{
+    line-height: 35px;
+    font-size: 18px;
+}
+.name_field{
+    width: 170px;
+    height: 20px;
+    color: black;
+    font-size: 15px;
+}
+.email_field{
+    width: 160px;
+    height: 20px;
+    color: black;
+    font-size: 15px;
+}
+.subject_field{
+    width: 165px;
+    height: 20px;
+    color: black;
+    font-size: 15px;
+}
+.textarea_field{
+    width: 205px;
+    height: 70px;
+    color: black;
+    font-size: 15px;
+}
+.telephone{
+    font-size: 17px;
+}
+.email{
+    font-size: 17px;
+}
+.address{
+    font-size: 17px;
+}

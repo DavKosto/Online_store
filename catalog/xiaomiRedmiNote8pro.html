@@ -5,39 +5,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="../style.css">
 </head>
 
 <body>
-    <ul>
-        <li>Меню
-        <ul>
-        <li><a href="../index.html"> Главная</a></li>
-        <li><a href="../contacts.html"> Контакты</a></li>
-        <li><a href="catalog.html"> Каталог</a></li>
+    <ul class="menu">
+        <li class="menu_li"><a class="menu_a" href="../index.html"> Главная</a></li>
+        <li class="menu_li"><a class="menu_a" href="catalog.html"> Каталог</a></li>
+        <li class="menu_li"><a class="menu_a" href="../contacts.html"> Контакты</a></li>
     </ul>
+    <hr>
+    <a class="h1_a" href="../index.html">Мир гаджетов</a>
     <hr>
     <h3>Товар каталога</h3>
     <p>Смартфон <q>Xiaomi Redmi Not 8 pro</q></p>
     <a href="image/xiaomiRedmiNot8Pro.jpg" target="_blank">
         <img src="image/xiaomiRedmiNot8Pro.jpg" alt="xiaomi Redmi Not 8 pro" width="100" height="150"> 
    </a>
+
     <h3>Краткое описание товара</h3>
-    <p>
+    <p class="p-brief">
         Xiaomi Redmi Note 8 pro, 6.53", 64 + 8 + 2 + 2 мп, 20 мп, 128GB, 6GB RAM, 4500 мАч
     </p>
 
     <h3>Характеристика товара</h3>
-    <ul>
-        <li> Связь
-            <p>
+    <ul class="product_detail">
+        <li class="product_detail-li"> Связь
+            <p class="product_detail-li-p">
                 <b>Интернет:</b> GPRS, EDGE, 3G, 4G, <br>
                 <b>Bluetooth:</b> A2DP, LE, 5.0 <br>
                 <b>Wi-Fi:</b> (802.11) 2.4 ГГц, 5 ГГц <br>
                 <b>NFC:</b> да <br>
             </p>
         </li> 
-        <li> Дисплей
-            <p>
+        <li class="product_detail-li"> Дисплей
+            <p class="product_detail-li-p">
                 <b>Тип дисплея:</b> IPS <br>
                 <b>Диагональ:</b> (дюйм) 6.53 <br>
                 <b>Разрешение (пикс):</b> 2340x1080 <br>
@@ -45,8 +47,8 @@
                 <b>Сенсорный дисплей:</b> да <br>
             </p>
         </li>
-        <li> Камера
-            <p>
+        <li class="product_detail-li"> Камера
+            <p class="product_detail-li-p">
                 <b>Фотокамера (Мп):</b> 64 + 8 + 2 + 2 (четыре основные камеры) <br>
                 <b>Автофокус:</b> фазовый <br>
                 <b>Вспышка:</b> светодиодная <br>
@@ -55,16 +57,16 @@
                 <b>Фронтальная камера (Мп):</b> 20 <br>
             </p>
         </li>
-        <li> Процессор
-            <p>
+        <li class="product_detail-li"> Процессор
+            <p class="product_detail-li-p">
                 <b>Процессор:</b> MediaTek Helio G90T <br>
                 <b>Частота процессора (МГц):</b> 2050 <br>
                 <b>Количество ядер:</b> 8 <br>
                 <b>Операционная система:</b> Android 9 (Pie) + MIUI 10 <br>
             </p>
         </li>
-        <li> Память
-            <p>
+        <li class="product_detail-li"> Память
+            <p class="product_detail-li-p">
                 <b>Встроенная память (Гб):</b> 128 <br>
                 <b>Оперативная память (Гб):</b> 6 <br>
                 <b>Поддержка карт памяти:</b> MicroSD, MicroSDHC, MicroSDXC <br>
@@ -73,16 +75,16 @@
                 <b>Кол-во SIM-карт:</b> 2 <br>
             </p>
         </li>
-        <li> Аккумулятор
-            <p>
+        <li class="product_detail-li"> Аккумулятор
+            <p class="product_detail-li-p">
                 <b>Тип аккумулятора:</b> Литий-полимерный, несъемный <br>
                 <b>Разъем для зарядки:</b> USB Type-C <br>
                 <b>Поддержка технологии быстрой зарядки:</b> да <br>
                 <b>Аккумулятор (мАч):</b> 4500 <br>
             </p>
         </li>
-        <li> Корпус
-            <p>
+        <li class="product_detail-li"> Корпус
+            <p class="product_detail-li-p">
                 <b>Тип корпуса:</b> классический <br>
                 <b>Высота (мм):</b> 161.4 <br>
                 <b>Ширина (мм):</b> 76.4 <br>
@@ -94,7 +96,7 @@
     </ul>
 
     <h3>Подробное описание товара</h3>
-    <p>
+    <p class="p-detailed">
         В отличие от Note 8, в Pro версии диагональ экрана выросла до 6,53 дюйма,
         а плотность пикселей снизилась несущественно, до 395 ppi. В остальном же,
         это та же самая матрица, кроме физических размеров никаких других различий нет.
